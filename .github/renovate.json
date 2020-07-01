@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "includePaths": ["pip/**", "pipenv/**", "poetry/**"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["before 10am"],
+  "assignees": ["pyto86pri"],
+  "labels": ["renovate"],
+  "patch": {
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": true
+    },
+    {
+      "groupName": "boto",
+      "packagePatterns": ["^boto"]
+    }
+  ]
+}
