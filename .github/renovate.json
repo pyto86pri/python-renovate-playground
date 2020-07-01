@@ -4,7 +4,6 @@
   ],
   "includePaths": ["pip/**", "pipenv/**", "poetry/**"],
   "timezone": "Asia/Tokyo",
-  "schedule": ["before 10am"],
   "assignees": ["pyto86pri"],
   "labels": ["renovate"],
   "patch": {

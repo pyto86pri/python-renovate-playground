@@ -7,7 +7,7 @@ verify_ssl = true
 pytest = "*"
 
 [packages]
-boto3 = "*"
+boto3 = "==1.14.0"
 
 [requires]
 python_version = "3.8"
