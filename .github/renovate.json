@@ -1,6 +1,7 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":automergePatch"
   ],
   "includePaths": [
     "pip/**",
@@ -14,9 +15,6 @@
   "labels": [
     "renovate"
   ],
-  "patch": {
-    "automerge": true
-  },
   "packageRules": [
     {
       "depTypeList": [
