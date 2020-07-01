@@ -2,21 +2,34 @@
   "extends": [
     "config:base"
   ],
-  "includePaths": ["pip/**", "pipenv/**", "poetry/**"],
+  "includePaths": [
+    "pip/**",
+    "pipenv/**",
+    "poetry/**"
+  ],
   "timezone": "Asia/Tokyo",
-  "assignees": ["pyto86pri"],
-  "labels": ["renovate"],
+  "assignees": [
+    "pyto86pri"
+  ],
+  "labels": [
+    "renovate"
+  ],
   "patch": {
     "automerge": true
   },
   "packageRules": [
     {
-      "depTypeList": ["devDependencies"],
+      "depTypeList": [
+        "devDependencies"
+      ],
       "automerge": true
     },
     {
-      "groupName": "boto",
-      "packagePatterns": ["^boto"]
+      "groupName": "boto3",
+      "packageNames": [
+        "boto3",
+        "botocore"
+      ]
     }
   ]
 }
