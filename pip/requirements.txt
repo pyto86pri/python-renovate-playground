@@ -1,4 +1,4 @@
-attrs==19.3.0
+attrs==20.3.0
 boto3==1.16.7
 botocore==1.19.7
 docutils==0.15.2
