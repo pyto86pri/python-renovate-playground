@@ -4,11 +4,6 @@
     "config:base",
     ":automergePatch"
   ],
-  "includePaths": [
-    "pip/**",
-    "pipenv/**",
-    "poetry/**"
-  ],
   "timezone": "Asia/Tokyo",
   "assignees": [
     "pyto86pri"
