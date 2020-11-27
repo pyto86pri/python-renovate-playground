@@ -30,5 +30,17 @@
         "botocore"
       ]
     }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^Dockerfile$"
+      ],
+      "matchStrings": [
+        "POETRY_VERSION=(?<currentValue>.*?)( |\n)"
+      ],
+      "depNameTemplate": "poetry",
+      "datasourceTemplate": "pypi"
+    }
   ]
 }
