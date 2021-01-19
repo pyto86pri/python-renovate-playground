@@ -63,10 +63,20 @@
     },
     {
       "fileMatch": [
-        "^pyproject.toml$"
+        "^pyproject\\.toml$"
       ],
       "matchStrings": [
         "python = \"(?<currentValue>.*?)\""
+      ],
+      "depNameTemplate": "python",
+      "datasourceTemplate": "docker"
+    },
+    {
+      "fileMatch": [
+        "^mypy\\.ini$"
+      ],
+      "matchStrings": [
+        "python_version = (?<currentValue>.*?)\n"
       ],
       "depNameTemplate": "python",
       "datasourceTemplate": "docker"
