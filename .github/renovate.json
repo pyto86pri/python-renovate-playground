@@ -36,6 +36,26 @@
       ],
       "depNameTemplate": "poetry",
       "datasourceTemplate": "pypi"
+    },
+    {
+      "fileMatch": [
+        "^\\.python-version$"
+      ],
+      "matchStrings": [
+        "^(?<currentValue>.*?)$"
+      ],
+      "depNameTemplate": "python",
+      "datasourceTemplate": "docker"
+    },
+    {
+      "fileMatch": [
+        "^pyproject.toml$"
+      ],
+      "matchStrings": [
+        "python = \"(?<currentValue>.*?)\""
+      ],
+      "depNameTemplate": "python",
+      "datasourceTemplate": "docker"
     }
   ]
 }
