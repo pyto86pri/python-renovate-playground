@@ -39,7 +39,7 @@
     },
     {
       "fileMatch": [
-        "(^|/|\\.)\\.python-version$"
+        "(^|/)\\.python-version$"
       ],
       "matchStrings": [
         "^(?<currentValue>.*?)\n?$"
