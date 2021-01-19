@@ -55,7 +55,7 @@
         "python = \"(?<currentValue>.*?)\""
       ],
       "depNameTemplate": "python/cpython",
-      "datasourceTemplate": "github-releases"
+      "datasourceTemplate": "github-tags"
     }
   ]
 }
