@@ -27,9 +27,17 @@
     },
     {
       "groupName": "python",
+      "datasources": [
+        "docker"
+      ],
       "packageNames": [
         "python"
-      ]
+      ],
+      "additionalBranchPrefix": "",
+      "commitMessageTopic": "{{{depName}}}",
+      "group": {
+        "commitMessageTopic": "{{{groupName}}}"
+      }
     }
   ],
   "regexManagers": [
