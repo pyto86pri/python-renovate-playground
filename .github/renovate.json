@@ -42,7 +42,7 @@
         "(^|/|\\.)\\.python-version$"
       ],
       "matchStrings": [
-        "^(?<currentValue>.*?)$"
+        "^(?<currentValue>.*?)\n?$"
       ],
       "depNameTemplate": "python",
       "datasourceTemplate": "docker"
