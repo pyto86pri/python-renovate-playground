@@ -39,7 +39,7 @@
     },
     {
       "fileMatch": [
-        "^\\.python-version$"
+        "(^|/|\\.)\\.python-version$"
       ],
       "matchStrings": [
         "^(?<currentValue>.*?)$"
@@ -54,8 +54,8 @@
       "matchStrings": [
         "python = \"(?<currentValue>.*?)\""
       ],
-      "depNameTemplate": "python/cpython",
-      "datasourceTemplate": "github-tags"
+      "depNameTemplate": "python",
+      "datasourceTemplate": "docker"
     }
   ]
 }
