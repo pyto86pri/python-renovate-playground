@@ -39,7 +39,7 @@
     },
     {
       "fileMatch": [
-        "^\\.python-version$"
+        "^.python-version$"
       ],
       "matchStrings": [
         "^(?<currentValue>.*?)$"
@@ -49,7 +49,7 @@
     },
     {
       "fileMatch": [
-        "^pyproject.toml$"
+        "(^|/|\\.)pyproject.toml$"
       ],
       "matchStrings": [
         "python = \"(?<currentValue>.*?)\""
