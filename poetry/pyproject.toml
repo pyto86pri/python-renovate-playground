@@ -6,7 +6,7 @@ authors = ["pyto86 <pyto86.me@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "3.7.9"
-boto3 = "1.16.7"
+boto3 = "1.16.63"
 numpy = "^1.19.0"
 pandas = "1.0.4"
 more-itertools = "^8.6.0"
