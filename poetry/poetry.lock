@@ -257,8 +257,8 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 
 [metadata]
 lock-version = "1.1"
-python-versions = "3.7.9"
-content-hash = "9a4ea90340c6327d6432cf0e1245388dd090e5d177321c3d27d8e5bb5d2508b8"
+python-versions = "3.7.17"
+content-hash = "718aa669ddd7049ef56e40aec4c57282d7ad785b8056e6ad050295e2ff627c19"
 
 [metadata.files]
 atomicwrites = [
